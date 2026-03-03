@@ -1,0 +1,18 @@
+name: wine_quality_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - requests
+  - plotly
+  - matplotlib
+  - shap
+  - statsmodels
+  - scikit-learn
+  - jupyter
+  - pip
+  - pip:
+      - python-docx
