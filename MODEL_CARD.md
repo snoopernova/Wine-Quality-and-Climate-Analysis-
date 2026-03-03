@@ -45,8 +45,4 @@
 - **Performance:** The Random Forest Regressor fits the historical data with in-sample accuracy. However, rigorous out-of-sample validation (Leave-One-Year-Out Cross-Validation) yields lower R² scores.
 - **The "Wildcard" Factor:** This performance gap proves that climate is an indicator of quality, but it leaves significant variance unexplained. Human intervention, changing consumer tastes, and winemaking style can heavily mask the raw climate data, especially in "wildcard" regions with less data.
 - **Adaptation Caveat:** The model's future projections assume winemakers make no changes. In reality, vulnerable regions will likely adapt to adjust to growing concerns regarding climate change and global warming.
-- **Performance:** The Random Forest Regressor fits the historical data with in-sample accuracy. However, rigorous out-of-sample validation (Leave-One-Year-Out Cross-Validation) yields lower R² scores.
-- **The "Wildcard" Factor:** This performance gap proves that climate is an indicator of quality, but it leaves significant variance unexplained. Human intervention, changing consumer tastes, and winemaking style can heavily mask the raw climate data, especially in "wildcard" regions with less data.
-- **Adaptation Caveat:** The model's future projections assume winemakers make no changes. In reality, vulnerable regions will likely adapt to adjust to growing concerns regarding climate change and global warming.
-
 
