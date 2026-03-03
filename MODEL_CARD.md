@@ -42,15 +42,11 @@
 
 **Model:** Random Forest Regressor trained on region-year aggregate climate features.
 
-**Performance:**
+- **Performance:** The Random Forest Regressor fits the historical data with in-sample accuracy. However, rigorous out-of-sample validation (Leave-One-Year-Out Cross-Validation) yields lower R² scores.
+- **The "Wildcard" Factor:** This performance gap proves that climate is an indicator of quality, but it leaves significant variance unexplained. Human intervention, changing consumer tastes, and winemaking style can heavily mask the raw climate data, especially in "wildcard" regions with less data.
+- **Adaptation Caveat:** The model's future projections assume winemakers make no changes. In reality, vulnerable regions will likely adapt to adjust to growing concerns regarding climate change and global warming.
+- **Performance:** The Random Forest Regressor fits the historical data with in-sample accuracy. However, rigorous out-of-sample validation (Leave-One-Year-Out Cross-Validation) yields lower R² scores.
+- **The "Wildcard" Factor:** This performance gap proves that climate is an indicator of quality, but it leaves significant variance unexplained. Human intervention, changing consumer tastes, and winemaking style can heavily mask the raw climate data, especially in "wildcard" regions with less data.
+- **Adaptation Caveat:** The model's future projections assume winemakers make no changes. In reality, vulnerable regions will likely adapt to adjust to growing concerns regarding climate change and global warming.
 
-| Metric | Value | Notes |
-|---|---|---|
-| In-sample R² | High | Fits historical data well |
-| LOYO CV R² (climate + region) | ~0.50–0.65 | Leave-One-Year-Out; truly out-of-sample vintages |
-| LOYO CV R² (climate only) | ~0.25–0.40 | Without region fixed effects |
-| CV RMSE | ~1.0–1.3 pts | On an 80–100 point scale |
 
-**The "Wildcard" Factor:** The gap between in-sample and out-of-sample performance proves that climate is an indicator of quality, but it leaves significant variance unexplained. Human intervention, changing consumer tastes, and winemaking style can heavily mask the raw climate signal — especially in regions with less historical data.
-
-**Adaptation Caveat:** The model's warming projections assume winemakers make no adaptive changes. In reality, vulnerable regions are likely to respond through vineyard elevation shifts, variety substitution, harvest timing adjustments, and irrigation investment — all of which would partially offset the projected declines.
