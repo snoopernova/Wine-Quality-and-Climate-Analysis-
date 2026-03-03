@@ -27,10 +27,10 @@
 - Northern Hemisphere: April–October (vintage year)
 - Southern Hemisphere: October (prior year)–April (vintage year)
 
-
 **Constraints:**
-The dataset physically ends after 2016. Because of strict aging laws (e.g., Barolo), some regions lack ratings for 2014-2016 entirely and cannot be used for recent baselines.
-The warming simulation assumes all other variables (like rainfall and water stress) remain constant, which is a conservative estimate given that warming typically exacerbates drought.
+- The dataset physically ends after 2016. Because of strict aging laws (e.g., Barolo), some regions lack ratings for 2014-2016 entirely and cannot be used for recent baselines.
+- The warming simulation assumes all other variables (like rainfall and water stress) remain constant, which is a conservative estimate given warming typically exacerbates drought. 
+
 ---
 
 ## 3. Evaluation Summary & Caveats
