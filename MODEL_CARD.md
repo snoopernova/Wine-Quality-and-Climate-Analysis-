@@ -27,15 +27,10 @@
 - Northern Hemisphere: April–October (vintage year)
 - Southern Hemisphere: October (prior year)–April (vintage year)
 
+
 **Constraints:**
-
-| Constraint | Impact |
-|---|---|
-| Dataset ends after 2016 | Cannot capture post-2016 extreme heat events (e.g. 2022 European heatwave) |
-| Barolo and other age-restricted regions | May lack ratings for 2014–2016 due to strict aging laws |
-| Warming simulation holds rainfall constant | Conservative estimate — warming typically exacerbates drought, so real impacts may be worse |
-| Southern Hemisphere under-represented | 6 of 16 regions; key producers (Marlborough, Stellenbosch) absent from dataset |
-
+The dataset physically ends after 2016. Because of strict aging laws (e.g., Barolo), some regions lack ratings for 2014-2016 entirely and cannot be used for recent baselines.
+The warming simulation assumes all other variables (like rainfall and water stress) remain constant, which is a conservative estimate given that warming typically exacerbates drought.
 ---
 
 ## 3. Evaluation Summary & Caveats
